@@ -17,7 +17,9 @@ pipeline {
     steps{
       sh 'docker build -t awscicd .'  
       sh 'docker images'
+  
     }
+   }
    }
   }
 
