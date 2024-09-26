@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-      BRANCH_NAME ='MAIN'
+      BRANCH_NAME = 'main'
       GIT_URL = 'https://github.com/dammy0404/aws-cicd.git'
     }
     
